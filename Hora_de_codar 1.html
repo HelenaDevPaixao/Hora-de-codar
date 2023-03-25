@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odeio_javascript</title>
+</head>
+<body>
+ <script>
+    var nome_do_carro = "fusca"
+     
+   var nome = prompt ("Seu nome")
+   var idade = prompt ("Sua idade")
+   alert ("Olá, " + nome + " sua idade é " + idade )
+
+   
+   var forma = prompt ( nome + " , escolha uma figura: 1-retângulo 2-quadrado 3-losango 4-trapézio 5-paralelogramo 6-triângulo 7-circulo 8-???"  )
+   
+   if ( forma == "1") {
+    var base = prompt (" Valor da base: ")
+    var altura = prompt ("Valor da altura:")
+    var resultado = base * altura
+    alert (" A área do retangulo é: " + resultado )
+   }
+
+    if (forma == "2") {
+
+    var lado = prompt ("Valor do lado:")
+    var resultado = lado **2 
+    alert (" A área do quadrado é: " + resultado)
+    }
+
+    if (forma == "3"){
+
+        var diagonal_maior = prompt (" Valor da diagonal maior: ")
+        var diagonal_menor = prompt (" Valor da diagonal menor: ")
+        var resultado = (diagonal_maior * diagonal_menor) / 2
+        alert (" A área do losango é: " + resultado )
+    }
+
+    if (forma == "4"){
+
+       var base_maior = prompt (" Valor da base maior: ")
+       var base_menor = prompt (" Valor da base menor: ")
+       var altura = prompt (" Valor da altura: ")
+       var resultado =(( base_maior + base_menor) * altura) /2 
+       alert ("A área do trapézio é:" + resultado)
+    }
+
+    if (forma == "5"){
+
+    var base = prompt (" Valor da base: ")
+    var altura = prompt ("Valor da altura:")
+    var resultado = base * altura
+    alert (" A área do paralelograma é: " + resultado )
+    }
+
+    if (forma == "6"){
+    var base = prompt (" Valor da base: ")
+    var altura = prompt ("Valor da altura:")
+    var resultado = (base * altura) / 2
+    alert (" A área do triangulo é: " + resultado )
+    }
+
+    if (forma == "7"){
+    var raio = prompt ("Valor do raio: ")
+    var resultado = (3.14 * (raio**2))
+    alert ("A área do circulo é :" + resultado)
+   
+    }
+
+    if (forma =="8"){
+     alert ( nome + " , meia noite eu te conto...")  
+
+    }
+
+
+
+
+ </script>
+    
+</body>
+</html>
